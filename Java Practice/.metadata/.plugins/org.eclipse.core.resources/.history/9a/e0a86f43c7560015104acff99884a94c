@@ -1,0 +1,11 @@
+package imran.java.practice;
+
+import javax.swing.JOptionPane;
+
+public class AAA
+{
+   public static void main(String[] args)
+   {
+	   
+   }
+}

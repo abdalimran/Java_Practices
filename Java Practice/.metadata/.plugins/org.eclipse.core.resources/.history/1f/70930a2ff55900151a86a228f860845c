@@ -1,0 +1,15 @@
+package imran.mysql.connection;
+
+import java.sql.*;
+
+public class Connection {
+
+	public static void main(String[] args) {
+		Class.forName("com.mysql.jdbc.Driver");
+		
+		Connection con = DriverManager.getConnection("jdbc:mysql://home/imran/Desktop/tab.sql");
+		
+
+	}
+
+}

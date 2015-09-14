@@ -1,0 +1,29 @@
+package imran.sqlite.connection;
+
+import java.sql.*;
+
+public class SQLite_Connection {
+	public static void main( String args[] )
+	  {
+	    Connection c = null;
+	    try {
+	      Class.forName("org.sqlite.JDBC");
+	      c = DriverManager.getConnection("jdbc:sqlite:/databases/test.sqlite");
+	      
+	      PreparedStatement query = c.prepareStatement("select Id,Name,Dept,Mob from tbl");
+			
+		  ResultSet result = query.executeQuery();
+			
+		  while(result.next())
+		  {
+			  System.out.println(result.getString(1)+" "+result.getString(2)+" "+result.getString(3)+" "+result.getString(4));
+		  }
+	    } catch ( Exception e ) {
+	      System.err.println( e.getClass().getName() + ": " + e.getMessage() );
+	      System.exit(0);
+	    }
+	    System.out.println("Opened database successfully");
+	  }
+}
+
+

@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Prog_003 
+{
+	public static void main(String[] args) 
+	{
+		int w,h;
+		Scanner in=new Scanner(System.in);
+		System.out.println("Enter weight: ");
+		w=in.nextInt();
+		System.out.println("Enter height: ");
+		h=in.nextInt();
+		
+		double BMI=(703*w)/(h*h);
+		
+		System.out.println("BMI = : "+BMI);
+	}
+
+}

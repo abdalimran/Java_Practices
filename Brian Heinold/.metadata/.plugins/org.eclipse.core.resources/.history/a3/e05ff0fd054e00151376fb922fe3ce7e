@@ -1,0 +1,15 @@
+import java.util.Random;
+
+public class Prog_029 
+{
+	public static void main(String[] args) 
+	{
+		Random rand=new Random();
+		
+		int x=rand.nextInt(1)+50;
+		int y=rand.nextInt(2)+5;
+		
+		System.out.println(x+"^"+y+" is = "+Math.pow(x,y));
+	}
+
+}

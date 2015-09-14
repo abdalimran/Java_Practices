@@ -1,0 +1,27 @@
+package imran.java.prog_177;
+
+import java.util.ArrayList;
+
+public class Main 
+{
+	public static void main(String[] args) 
+	{
+		ArrayList<IPair> list = new ArrayList();
+		for(int i=1; i<=10; i++)
+		{
+			for(int j=1; i<=10; i++)
+			{
+				IPair obj=new IPair(x,y);
+				list.add(obj);
+			}
+		}
+		
+		System.out.println(a.toString());
+		System.out.println(b.toString());
+		System.out.println(c.toString());
+		
+		System.out.println(a.equals(b)); //Equality testing method-1
+		System.out.println(a.hashCode()==c.hashCode()); //Equality testing method-2
+	}
+
+}

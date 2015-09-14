@@ -1,0 +1,26 @@
+package imran.sqlite.connection;
+
+import java.sql.*;
+
+public class SQLite_Connection {
+		Connection conn=null;
+		public static Connection dbConnector()
+		{
+			try{
+				Class.forName("org.sqlite.JDBC");
+				Connection conn=DriverManager.getConnection("jdbc:sqlite:databases\test.sqlite");
+				System.out.println("Connected!");
+				return conn;
+			}catch(Exception e){
+				System.out.println("Error!");
+				return null;
+			}
+		}
+		
+		public static void main(String[] args) {
+			SQLite_Connection connect = null;
+			connect.dbConnector();
+		}
+}
+
+

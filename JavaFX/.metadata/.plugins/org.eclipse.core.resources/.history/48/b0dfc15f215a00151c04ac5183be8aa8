@@ -1,0 +1,31 @@
+package imran.jfx.application;
+
+import java.sql.*;
+
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextArea;
+
+public class Application_Controler{
+	
+	Class.forName("org.sqlite.JDBC");
+	String url="jdbc:sqlite:src/databases/test.sqlite";
+	Connection conn = DriverManager.getConnection(url);
+	String query = "select Id,Name,Dept,Mob from tbl";
+	PreparedStatement doQuery = conn.prepareStatement(query);
+	ResultSet result = doQuery.executeQuery();
+	
+
+    @FXML
+    private TextArea output;
+
+    @FXML
+    private Button btn;
+
+    @FXML
+    void showData(ActionEvent event) throws Exception {
+
+    }
+
+}

@@ -1,0 +1,10 @@
+package imran.jfx.application;
+
+public class Application_Controler {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

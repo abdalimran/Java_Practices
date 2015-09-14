@@ -1,0 +1,27 @@
+package imran.jfx.application;
+
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextArea;
+
+public class Application_Controler {
+
+    @FXML
+    private TextArea output;
+
+    @FXML
+    private Button btn;
+    
+    ConnectDB conn = new ConnectDB();
+    public static void makeConnection()
+    {
+    	conn.makeConnection();
+    }
+
+    @FXML
+    void showData(ActionEvent event) {
+
+    }
+
+}

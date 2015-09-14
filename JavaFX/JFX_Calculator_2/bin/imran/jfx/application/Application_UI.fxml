@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="284.0" prefWidth="205.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.40" fx:controller="imran.jfx.application.Application_Controler">
+   <children>
+      <AnchorPane layoutX="-196.0" layoutY="-389.0" prefHeight="200.0" prefWidth="200.0" />
+      <GridPane alignment="CENTER" layoutX="46.0" layoutY="130.0" prefHeight="293.0" prefWidth="210.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="80.0" minHeight="67.0" prefHeight="68.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="50.0" minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="50.0" minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="50.0" minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="50.0" minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="seven" alignment="CENTER" contentDisplay="CENTER" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" mnemonicParsing="false" onAction="#handleDigit" prefHeight="45.0" prefWidth="45.0" text="7" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <rotationAxis>
+                  <Point3D />
+               </rotationAxis>
+            </Button>
+            <Button fx:id="eight" alignment="CENTER" contentDisplay="TOP" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" mnemonicParsing="false" onAction="#handleDigit" prefHeight="45.0" prefWidth="45.0" text="8" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <rotationAxis>
+                  <Point3D />
+               </rotationAxis>
+            </Button>
+            <Button fx:id="four" alignment="CENTER" contentDisplay="TOP" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" mnemonicParsing="false" onAction="#handleDigit" prefHeight="45.0" prefWidth="45.0" text="4" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <rotationAxis>
+                  <Point3D />
+               </rotationAxis>
+            </Button>
+            <Button fx:id="nine" alignment="CENTER" contentDisplay="TOP" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" mnemonicParsing="false" onAction="#handleDigit" prefHeight="45.0" prefWidth="45.0" text="9" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <rotationAxis>
+                  <Point3D />
+               </rotationAxis>
+            </Button>
+            <Button fx:id="five" alignment="CENTER" contentDisplay="TOP" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" mnemonicParsing="false" onAction="#handleDigit" prefHeight="45.0" prefWidth="45.0" text="5" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <rotationAxis>
+                  <Point3D />
+               </rotationAxis>
+            </Button>
+            <Button fx:id="six" alignment="CENTER" contentDisplay="TOP" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" mnemonicParsing="false" onAction="#handleDigit" prefHeight="45.0" prefWidth="45.0" text="6" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <rotationAxis>
+                  <Point3D />
+               </rotationAxis>
+            </Button>
+            <Button fx:id="one" alignment="CENTER" contentDisplay="TOP" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" mnemonicParsing="false" onAction="#handleDigit" prefHeight="45.0" prefWidth="45.0" text="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+               <rotationAxis>
+                  <Point3D />
+               </rotationAxis>
+            </Button>
+            <Button fx:id="two" alignment="CENTER" contentDisplay="TOP" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" mnemonicParsing="false" onAction="#handleDigit" prefHeight="45.0" prefWidth="45.0" text="2" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+               <rotationAxis>
+                  <Point3D />
+               </rotationAxis>
+            </Button>
+            <Button fx:id="three" alignment="CENTER" contentDisplay="TOP" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" mnemonicParsing="false" onAction="#handleDigit" prefHeight="45.0" prefWidth="45.0" text="3" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+               <rotationAxis>
+                  <Point3D />
+               </rotationAxis>
+            </Button>
+            <Button fx:id="zero" alignment="CENTER" contentDisplay="TOP" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" mnemonicParsing="false" onAction="#handleDigit" prefHeight="45.0" prefWidth="45.0" text="0" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+               <rotationAxis>
+                  <Point3D />
+               </rotationAxis>
+            </Button>
+            <Button fx:id="dot" alignment="CENTER" contentDisplay="TOP" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" mnemonicParsing="false" onAction="#handleDigit" prefHeight="45.0" prefWidth="45.0" text="." GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+               <rotationAxis>
+                  <Point3D />
+               </rotationAxis>
+            </Button>
+            <Button fx:id="plus" alignment="CENTER" contentDisplay="TOP" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" mnemonicParsing="false" onAction="#handleDigit" prefHeight="45.0" prefWidth="45.0" text="+" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <rotationAxis>
+                  <Point3D />
+               </rotationAxis>
+            </Button>
+            <Button fx:id="minus" alignment="CENTER" contentDisplay="TOP" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" mnemonicParsing="false" onAction="#handleDigit" prefHeight="45.0" prefWidth="45.0" text="-" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <rotationAxis>
+                  <Point3D />
+               </rotationAxis>
+            </Button>
+            <Button fx:id="multiply" alignment="CENTER" contentDisplay="TOP" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" mnemonicParsing="false" onAction="#handleDigit" prefHeight="45.0" prefWidth="45.0" text="x" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+               <rotationAxis>
+                  <Point3D />
+               </rotationAxis>
+            </Button>
+            <Button fx:id="ans" alignment="CENTER" contentDisplay="TOP" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" mnemonicParsing="false" onAction="#handleDigit" prefHeight="45.0" prefWidth="45.0" text="=" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+               <rotationAxis>
+                  <Point3D />
+               </rotationAxis>
+            </Button>
+            <Button fx:id="divide" alignment="CENTER" contentDisplay="TOP" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" mnemonicParsing="false" onAction="#handleDigit" prefHeight="45.0" prefWidth="45.0" text="/" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+               <rotationAxis>
+                  <Point3D />
+               </rotationAxis>
+            </Button>
+            <TextArea fx:id="output" prefHeight="85.0" prefWidth="225.0" GridPane.columnSpan="4" />
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

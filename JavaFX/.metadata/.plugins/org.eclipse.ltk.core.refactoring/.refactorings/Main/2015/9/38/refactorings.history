@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;application.MultipleScene&apos; to &apos;MultipleStage&apos;&#x0A;- Original project: &apos;Main&apos;&#x0A;- Original element: &apos;application.MultipleScene&apos;&#x0A;- Renamed element: &apos;application.MultipleStage&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MultipleScene&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;application{MultipleScene.java[MultipleScene" matchStrategy="1" name="MultipleStage" qualified="false" references="true" similarDeclarations="false" stamp="1442165880664" textual="false" version="1.0"/>
+</session>

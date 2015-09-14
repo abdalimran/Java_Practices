@@ -1,0 +1,32 @@
+package imran.jfx.application;
+
+import java.sql.*;
+
+public class ConnectDB {
+	
+	static ResultSet result;
+	static Connection conn;
+	static String url;
+	static PreparedStatement doQuery;
+	static String query = "select Id,Name,Dept,Mob from tbl";
+	
+	public void makeConnection() throws Exception {
+		
+		Class.forName("org.sqlite.JDBC");
+		
+		url="jdbc:sqlite:src/databases/test.sqlite";
+		conn = DriverManager.getConnection(url);
+	}
+	
+//	public void getResult() throws Exception
+//	{
+//		doQuery = conn.prepareStatement(query);
+//		result = doQuery.executeQuery();
+//		
+//		while (result.next()) 
+//		{
+//			System.out.println(result.getString(1) + " " + result.getString(2) + " " + result.getString(3) + " "
+//					+ result.getString(4));
+//		}
+//	}
+}

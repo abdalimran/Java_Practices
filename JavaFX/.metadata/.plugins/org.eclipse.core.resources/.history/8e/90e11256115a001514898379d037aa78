@@ -1,0 +1,20 @@
+package imran.jfx.application;
+
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextArea;
+
+public class Application_Contorler {
+
+    @FXML
+    private TextArea output;
+
+    @FXML
+    private Button btn;
+
+    @FXML
+    void showData(ActionEvent event) {
+
+    }
+
+}

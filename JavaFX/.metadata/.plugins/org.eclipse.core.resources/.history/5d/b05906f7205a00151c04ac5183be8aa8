@@ -1,0 +1,18 @@
+package imran.jfx.application;
+
+import java.sql.*;
+
+public class ConnectDB {
+	
+	
+	
+	public void makeConnection() throws Exception {
+		
+		
+	}
+	
+	public void getResult() throws Exception
+	{
+		
+	}
+}

@@ -1,0 +1,40 @@
+package imran.java.prog_175;
+
+import java.util.Scanner;
+
+public class Main 
+{
+	public static void main(String[] args) 
+	{
+		Scanner in=new Scanner(System.in);
+		
+		System.out.print("Enter Account holder's name: ");
+		String name=in.nextLine();
+		
+		System.out.print("Enter Amount in account: ");
+		double amount=in.nextDouble();
+		
+		System.out.print("Enter interest rate: ");
+		double interestRate=in.nextDouble();
+		
+		BankAccount BA=new BankAccount(amount,interestRate,name);
+		
+		
+		System.out.println("\nAccount holder's name: "+BA.getanme());
+		System.out.println("Account holder's amount: "+BA.getAmount());
+		
+		System.out.println("After applying the interest rate: "+BA.getinterestRate()+"%");
+		BA.applyInterest();
+		System.out.println("The new amount is = "+BA.getAmount());
+		
+		System.out.print("\nTo change the interest rate, Enter new interest rate: ");
+		interestRate=in.nextDouble();
+		BA.setAmount(BA.getAmount()-(BA.getAmount()*(BA.getinterestRate()/100.0)));
+		BA.setinterestRate(interestRate);
+		
+		System.out.println("After applying the interest rate: "+BA.getinterestRate()+"%");
+		BA.applyInterest();
+		System.out.println("The new amount is = "+BA.getAmount());
+	}
+
+}

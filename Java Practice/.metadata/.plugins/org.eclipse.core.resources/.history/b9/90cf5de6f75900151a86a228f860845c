@@ -1,0 +1,23 @@
+package imran.mysql.conn;
+
+import java.sql.*;
+
+public class Connection {
+
+	public static void main(String[] args) {
+		Class.forName("com.mysql.jdbc.Driver");
+		
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/newDB","root","abeer");
+		
+		PreparedStatement statement = con.prepareStatement("select id,word,bangla from tab");
+		ResultSet result = statement.executeQuery();
+		
+		while(result.next())
+		{
+			System.out.println(result.getString(1)+" "+result.getString(2)+" "+result.getString(3));
+		}
+		
+
+	}
+
+}

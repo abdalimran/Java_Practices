@@ -1,0 +1,100 @@
+package imran.swing.app;
+
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JTextField;
+import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import javax.swing.JCheckBox;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+
+public class SwingApp {
+
+	private JFrame frame;
+	private JTextField textField1;
+	private JTextField textField2;
+	private JButton btnSubstract;
+	private JTextField textField3;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					SwingApp window = new SwingApp();
+					window.frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the application.
+	 */
+	public SwingApp() {
+		initialize();
+	}
+
+	/**
+	 * Initialize the contents of the frame.
+	 */
+	private void initialize() {
+		frame = new JFrame();
+		frame.setBounds(100, 100, 450, 300);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.getContentPane().setLayout(null);
+		
+		textField1 = new JTextField();
+		textField1.setBounds(39, 58, 165, 42);
+		frame.getContentPane().add(textField1);
+		textField1.setColumns(10);
+		
+		textField2 = new JTextField();
+		textField2.setBounds(246, 58, 173, 42);
+		frame.getContentPane().add(textField2);
+		textField2.setColumns(10);
+		
+		JButton btnAdd = new JButton("Add");
+		btnAdd.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int num1,num2,result;
+				
+				try
+				{
+					num1=Integer.parseInt(textField1.getText());
+					num2=Integer.parseInt(textField2.getText());
+					result=num1+num2;
+					
+					textField3.setText(Integer.toString(result));
+					
+				}
+				catch(Exception e1)
+				{
+					JOptionPane.showMessageDialog(null, "Please enter valid number");
+				}
+			}
+		});
+		btnAdd.setBounds(82, 140, 117, 25);
+		frame.getContentPane().add(btnAdd);
+		
+		btnSubstract = new JButton("Substract");
+		btnSubstract.setBounds(272, 140, 117, 25);
+		frame.getContentPane().add(btnSubstract);
+		
+		textField3 = new JTextField();
+		textField3.setBounds(156, 206, 140, 30);
+		frame.getContentPane().add(textField3);
+		textField3.setColumns(10);
+		
+		JLabel lblResult = new JLabel("Result:");
+		lblResult.setBounds(82, 213, 70, 15);
+		frame.getContentPane().add(lblResult);
+	}
+}

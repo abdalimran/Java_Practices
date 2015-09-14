@@ -1,0 +1,36 @@
+package imran.sqlite.connection;
+
+import java.sql.*;
+
+public class SQLite_Connection {
+		Connection conn=null;
+		public static Connection dbConnector()
+		{
+			try{
+				Class.forName("org.sqlite.JDBC");
+				Connection conn=DriverManager.getConnection("jdbc:sqlite:databases\test.sqlite");
+				System.out.println("Connected!");
+				
+				PreparedStatement query = conn.prepareStatement("select id,word,bangla from tab");
+				
+				ResultSet result = query.executeQuery();
+				
+				while(result.next())
+				{
+					System.out.println(result.getString(1)+" "+result.getString(2)+" "+result.getString(3));
+				}
+				
+				return conn;
+			}catch(Exception e){
+				System.out.println("Error!");
+				return null;
+			}
+		}
+		
+		public static void main(String[] args) {
+			SQLite_Connection connect = new SQLite_Connection();
+			connect.dbConnector();
+		}
+}
+
+

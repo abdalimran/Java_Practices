@@ -1,0 +1,11 @@
+package imran.java.prog_176;
+
+public class Main 
+{
+	public static void main(String[] args) 
+	{
+		IPair a(1,8);
+		IPair b(2,5);
+	}
+
+}

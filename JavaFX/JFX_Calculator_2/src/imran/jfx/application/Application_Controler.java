@@ -1,0 +1,69 @@
+package imran.jfx.application;
+
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextArea;
+
+public class Application_Controler {
+
+    @FXML
+    private Button seven;
+
+    @FXML
+    private Button eight;
+
+    @FXML
+    private Button four;
+
+    @FXML
+    private Button nine;
+
+    @FXML
+    private Button five;
+
+    @FXML
+    private Button six;
+
+    @FXML
+    private Button one;
+
+    @FXML
+    private Button two;
+
+    @FXML
+    private Button three;
+
+    @FXML
+    private Button zero;
+
+    @FXML
+    private Button dot;
+
+    @FXML
+    private Button plus;
+
+    @FXML
+    private Button minus;
+
+    @FXML
+    private Button multiply;
+
+    @FXML
+    private Button ans;
+
+    @FXML
+    private Button divide;
+
+    @FXML
+    private TextArea output;
+
+    @FXML
+    void handleDigit(ActionEvent event) {
+    	String digit = ((Button) event.getSource()).getText();
+    	String oldText = output.getText();
+    	String digitText = oldText+digit;
+    	output.setText(digitText);
+    }
+
+}

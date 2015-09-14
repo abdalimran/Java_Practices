@@ -1,0 +1,5 @@
+package imran.jfx.application;
+
+public class ConnectDB {
+
+}

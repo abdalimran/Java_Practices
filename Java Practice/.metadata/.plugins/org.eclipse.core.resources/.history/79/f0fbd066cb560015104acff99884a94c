@@ -1,0 +1,24 @@
+package imran.java.practice;
+
+import java.util.ArrayList;
+
+public class ArrayList
+{
+   public static void main(String[] args)
+   {
+	   ArrayList<String> list = new ArrayList<>(); //Can contain any class objects
+	   
+//	   ArrayList list2 = new ArrayList(); //Can contain any data types
+	   
+	   list.add("One");
+	   list.add("Two");
+	   list.add("Three");
+	   
+//	   list2.add(1);
+//	   list2.add(2);
+//	   list2.add(3);
+	   
+	   System.out.println(list);
+	   System.out.print(list2);
+   }
+}
