@@ -1,0 +1,9 @@
+package my.java.program;
+
+public class Main
+{
+	public staticvoid main(String[] args)
+	{
+		
+	}
+}

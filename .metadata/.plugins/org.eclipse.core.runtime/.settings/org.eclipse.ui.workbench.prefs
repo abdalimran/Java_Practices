@@ -1,0 +1,24 @@
+//org.eclipse.ui.commands/state/org.eclipse.ui.navigator.resources.nested.changeProjectPresentation/org.eclipse.ui.commands.radioState=false
+ColorsAndFontsPreferencePage.expandedCategories=Torg.eclipse.ui.workbenchMisc\tTorg.eclipse.jdt.ui.presentation
+ColorsAndFontsPreferencePage.selectedElement=Forg.eclipse.jface.textfont
+PLUGINS_NOT_ACTIVATED_ON_STARTUP=org.eclipse.m2e.discovery;
+eclipse.preferences.version=1
+org.eclipse.e4.ui.css.theme.e4_default.org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_BG_END=255,255,255
+org.eclipse.e4.ui.css.theme.e4_default.org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_BG_START=255,255,255
+org.eclipse.e4.ui.css.theme.e4_default.org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_TEXT_COLOR=0,0,0
+org.eclipse.e4.ui.css.theme.e4_default.org.eclipse.ui.workbench.ACTIVE_TAB_BG_END=255,255,255
+org.eclipse.e4.ui.css.theme.e4_default.org.eclipse.ui.workbench.ACTIVE_TAB_BG_START=255,255,255
+org.eclipse.e4.ui.css.theme.e4_default.org.eclipse.ui.workbench.ACTIVE_TAB_INNER_KEYLINE_COLOR=255,255,255
+org.eclipse.e4.ui.css.theme.e4_default.org.eclipse.ui.workbench.ACTIVE_TAB_OUTER_KEYLINE_COLOR=204,204,204
+org.eclipse.e4.ui.css.theme.e4_default.org.eclipse.ui.workbench.ACTIVE_TAB_OUTLINE_COLOR=180,180,180
+org.eclipse.e4.ui.css.theme.e4_default.org.eclipse.ui.workbench.ACTIVE_UNSELECTED_TABS_COLOR_END=225,225,225
+org.eclipse.e4.ui.css.theme.e4_default.org.eclipse.ui.workbench.ACTIVE_UNSELECTED_TABS_COLOR_START=220,220,220
+org.eclipse.e4.ui.css.theme.e4_default.org.eclipse.ui.workbench.INACTIVE_TAB_BG_END=255,255,255
+org.eclipse.e4.ui.css.theme.e4_default.org.eclipse.ui.workbench.INACTIVE_TAB_BG_START=221,223,229
+org.eclipse.e4.ui.css.theme.e4_default.org.eclipse.ui.workbench.INACTIVE_TAB_INNER_KEYLINE_COLOR=255,255,255
+org.eclipse.e4.ui.css.theme.e4_default.org.eclipse.ui.workbench.INACTIVE_TAB_OUTER_KEYLINE_COLOR=255,255,255
+org.eclipse.e4.ui.css.theme.e4_default.org.eclipse.ui.workbench.INACTIVE_TAB_OUTLINE_COLOR=182,188,204
+org.eclipse.e4.ui.css.theme.e4_default.org.eclipse.ui.workbench.INACTIVE_UNSELECTED_TABS_COLOR_END=255,255,255
+org.eclipse.e4.ui.css.theme.e4_default.org.eclipse.ui.workbench.INACTIVE_UNSELECTED_TABS_COLOR_START=255,255,255
+org.eclipse.jface.textfont=1|Ubuntu|12.0|0|GTK|1|;
+org.eclipse.ui.commands=<?xml version\="1.0" encoding\="UTF-8"?>\n<org.eclipse.ui.commands>\n<keyBinding contextId\="org.eclipse.ui.contexts.dialogAndWindow" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="CTRL+SHIFT+Z"/>\n<keyBinding commandId\="org.eclipse.debug.ui.commands.RunLast" contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="F9"/>\n<keyBinding commandId\="org.eclipse.ui.edit.redo" contextId\="org.eclipse.ui.contexts.dialogAndWindow" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="CTRL+SHIFT+Z"/>\n<keyBinding contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="CTRL+F11"/>\n<keyBinding contextId\="org.eclipse.debug.ui.console" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="CTRL+D"/>\n<keyBinding contextId\="org.eclipse.debug.ui.console" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="CTRL+D"/>\n<keyBinding commandId\="org.eclipse.debug.ui.commands.eof" contextId\="org.eclipse.debug.ui.console" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="ALT+CTRL+E"/>\n<keyBinding contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="ALT+CTRL+ARROW_UP"/>\n<keyBinding contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="ALT+CTRL+ARROW_UP"/>\n<keyBinding commandId\="org.eclipse.ui.edit.text.copyLineUp" contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="CTRL+D"/>\n</org.eclipse.ui.commands>

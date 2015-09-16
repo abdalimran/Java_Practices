@@ -1,0 +1,24 @@
+package java.Class.programs;
+
+public class Java_Class {
+	
+	String name;    //An instance variable
+	String gender;  //An instance variable
+	String age;     //An instance variable
+	
+	static int count; // A  class  variable  because of  the   static  modifier
+	
+	
+	
+	public static void main(String[] args)
+	{
+		Java_Class object = new Java_Class();
+		
+		object.name="Imran";
+		object.gender="Male";
+		object.age="22";
+		object.count=1;
+		
+		System.out.println(object.name+" "+object.gender+" "+object.age+" "+object.count);
+	}
+}

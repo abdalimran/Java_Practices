@@ -1,0 +1,16 @@
+package my.java.program;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class Main
+{
+	public static void main(String[] args)
+	{
+		ArrayList<String> players = new ArrayList<String>();
+		Collections.addAll(players, "Andrew", "Bob", "Carol", "Deb", "Erin");
+		Collections.shuffle(players);
+		System.out.println(players);
+
+	}
+}

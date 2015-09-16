@@ -1,0 +1,13 @@
+package my.java.program;
+
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args)
+	{
+		String s = "John Q. Smith (JQSmith@gmail.com)";
+		String m=s.replace('.', '')
+		System.out.println("Email = "+email);
+	}
+}

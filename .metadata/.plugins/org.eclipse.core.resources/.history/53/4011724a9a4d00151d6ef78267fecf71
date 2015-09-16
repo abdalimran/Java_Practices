@@ -1,0 +1,11 @@
+package my.java.program;
+
+import java.lang.Object;
+
+public class Main
+{
+	public static void main(String[] args)
+	{
+		int Pair<int,int>p;
+	}
+}

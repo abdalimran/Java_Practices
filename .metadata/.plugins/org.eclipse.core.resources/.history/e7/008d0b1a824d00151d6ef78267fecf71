@@ -1,0 +1,12 @@
+package my.java.program;
+
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args)
+	{
+		System.out.println(dt.format(DateTimeFormatter.ofPattern("EEEE MMMM d, yyyy h:mm a")));
+		System.out.println(dt.format(DateTimeFormatter.ofPattern("MM/dd/yyyy HH:mm")));
+	}
+}

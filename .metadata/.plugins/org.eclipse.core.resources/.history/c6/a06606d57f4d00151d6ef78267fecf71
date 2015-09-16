@@ -1,0 +1,13 @@
+package my.java.program;
+
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args)
+	{
+		Scanner scanner = new Scanner("name,88,4.33");
+		scanner.useDelimiter(",");
+		String s = scanner.next;
+	}
+}

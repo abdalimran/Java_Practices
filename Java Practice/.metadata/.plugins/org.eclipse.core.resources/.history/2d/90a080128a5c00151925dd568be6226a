@@ -1,0 +1,5 @@
+package java.Class;
+
+public class Java_Class {
+	
+}

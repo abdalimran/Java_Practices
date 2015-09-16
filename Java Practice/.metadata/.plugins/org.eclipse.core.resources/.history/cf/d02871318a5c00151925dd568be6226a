@@ -1,0 +1,9 @@
+package java.Class;
+
+public class Java_Class {
+	String name;
+	String gender;
+	String age;
+	
+	static int count;
+}

@@ -1,0 +1,14 @@
+package java.Class;
+
+public class Java_Class {
+	String name;    //An instance variable
+	String gender;  //An instance variable
+	String age;     //An instance variable
+	
+	static int count; // A  class  variable  because of  the   static  modifier
+}
+
+public static void main(String[] args)
+{
+	
+}

@@ -1,0 +1,12 @@
+package my.java.program;
+
+public class Main
+{
+	public static void main(String[] args)
+	{
+		String s="this is a program";
+		String[] a=s.split(" ");
+		
+		System.out.println(a[0]);
+	}
+}
